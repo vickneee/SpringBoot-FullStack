@@ -11,14 +11,14 @@ This is a full-stack demo application that combines Spring Boot for the backend 
 ## FullStackDemo
 
 This is a full-stack demo project with:
-•	Backend: Spring Boot (Kotlin) running on port 8081
-•	Frontend: React + TypeScript (Vite) running on port 5173
-•	Preconfigured CORS so the frontend can call the backend without network errors
+-	Backend: Spring Boot (Kotlin) running on port 8081
+-	Frontend: React + TypeScript (Vite) running on port 5173
+-	Preconfigured CORS so the frontend can call the backend without network errors
 
 ⸻
 
 ### Project Structure
-```
+```text
 FullStackDemo/
 ├─ SpringBootDemo/           <-- Backend (Spring Boot Kotlin)
 │  ├─ build.gradle.kts
@@ -71,6 +71,6 @@ axios.get('http://localhost:8081/hello')
 
 
 **Notes**
-•	Ports: Frontend → 5173, Backend → 8081
-•	You can add more endpoints in HelloController.kt and call them from React.
-•	This setup is ideal for full-stack testing and development.
+-	Ports: Frontend → 5173, Backend → 8081
+-	You can add more endpoints in HelloController.kt and call them from React.
+-	This setup is ideal for full-stack testing and development.
