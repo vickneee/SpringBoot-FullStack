@@ -2,7 +2,7 @@
 
 This is a full-stack demo application that combines Spring Boot for the backend and Vite React with TypeScript for the frontend. The application demonstrates how to create a simple web application with a RESTful API and a responsive user interface.
 
-### Screenshot 
+### Screenshots
 
 <p align="center">
 <img src="./res/Screenshot-2026-03-15-0.16.00.png" width="74%" alt="Android Mobile App Screen - SQL Example in Android Studio screen"/>
@@ -15,9 +15,9 @@ This is a full-stack demo project with:
 -	Frontend: React + TypeScript (Vite) running on port 5173
 -	Preconfigured CORS so the frontend can call the backend without network errors
 
-⸻
 
-### Project Structure
+## Project Structure
+
 ```text
 FullStackDemo/
 ├─ SpringBootDemo/           <-- Backend (Spring Boot Kotlin)
