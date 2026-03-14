@@ -17,8 +17,8 @@ This is a full-stack demo project with:
 
 ⸻
 
-Project Structure
-
+### Project Structure
+```
 FullStackDemo/
 ├─ SpringBootDemo/           <-- Backend (Spring Boot Kotlin)
 │  ├─ build.gradle.kts
@@ -35,7 +35,7 @@ FullStackDemo/
 ├─ tsconfig.json
 └─ src/
 └─ App.tsx
-
+```
 ---
 
 ## How to Run
