@@ -4,6 +4,11 @@ This is a full-stack demo application that combines Spring Boot for the backend 
 
 ⸻
 
+
+<p align="center">
+<img src="./res/Screenshot-2026-03-15-0.16.00.png" width="74%" alt="Android Mobile App Screen - SQL Example in Android Studio screen"/>
+</p>
+
 FullStackDemo
 
 This is a full-stack demo project with:
@@ -17,19 +22,33 @@ Project Structure
 
 FullStackDemo/
 ├─ SpringBootDemo/           <-- Backend (Spring Boot Kotlin)
+
 │  ├─ build.gradle.kts
+
 │  ├─ settings.gradle.kts
+
 │  └─ src/
+
 │     └─ main/
+
 │        ├─ kotlin/com/example/demo/
+
 │        │   ├─ SpringbootBackendApplication.kt
+
 │        │   └─ HelloController.kt
+
 │        └─ resources/
+
 │            └─ application.properties
+
 └─ springboot-frontend/      <-- Frontend (Vite React TypeScript)
+
 ├─ package.json
+
 ├─ tsconfig.json
+
 └─ src/
+
 └─ App.tsx
 
 
@@ -46,7 +65,6 @@ cd SpringBootDemo
 	•	Test endpoint: http://localhost:8081/hello → returns:
 
 Hello from Backend! Spring Boot works!
-
 
 ⸻
 
@@ -77,7 +95,3 @@ Notes
 •	This setup is ideal for full-stack testing and development.
 
 ⸻
-
-If you want, I can also make a super short “1-minute setup instructions” version for your README, so anyone can run both servers with just 2 commands.
-
-Do you want me to do that?
