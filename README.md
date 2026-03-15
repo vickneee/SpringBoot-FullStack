@@ -1,4 +1,4 @@
-# FullStack Demo - Spring Boot + Vite React + TypeScript
+# FullStack Demo - Spring Boot + React + TypeScript (Vite)
 
 This is a full-stack demo application that combines Spring Boot for the backend and Vite React with TypeScript for the frontend. The application demonstrates how to create a simple web application with a RESTful API and a responsive user interface.
 
@@ -19,8 +19,8 @@ This is a full-stack demo project with:
 ## Project Structure
 
 ```text
-FullStackDemo/
-├─ SpringBootDemo/           <-- Backend (Spring Boot Kotlin)
+SpringBoot-FullStack/
+├─ springboot-backend/           <-- Backend (Spring Boot Kotlin)
 │  ├─ build.gradle.kts
 │  ├─ settings.gradle.kts
 │  └─ src/
@@ -50,7 +50,6 @@ cd SpringBootDemo
 
 Hello from Backend! Spring Boot works!
 
-
 **2. Start Frontend**
 
 cd springboot-frontend
@@ -60,7 +59,6 @@ npm run dev
 	•	Frontend runs on: http://localhost:5173
 	•	It automatically fetches data from the backend /hello endpoint.
 
-
 **How It Works**
 •	React frontend calls Spring Boot backend using Axios:
 
@@ -68,7 +66,6 @@ axios.get('http://localhost:8081/hello')
 
 	•	Spring Boot returns a simple string response.
 	•	CORS is preconfigured in SpringbootBackendApplication.kt to allow requests from the frontend.
-
 
 **Notes**
 -	Ports: Frontend → 5173, Backend → 8081
